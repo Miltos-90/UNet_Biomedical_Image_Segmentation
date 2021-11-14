@@ -34,7 +34,7 @@ from collections import defaultdict
 
 The architecture of the model is the following:
 
-![Unet](unet_arch.png)
+![Unet](./imm/unet_arch.png)
 
 It consists of a contracting path (left side) and an expansive path (right side). The constrasting path follows the typical architecture of a convolutional neural network, and it consists of the repeated
 application of two 3x3 convolutions (unpadded convolutions), each followed by
