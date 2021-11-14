@@ -318,15 +318,15 @@ for i in [1, 5, 10]:
 ```
 
 
-![png](output_10_0.png)
+![png](./imm/output_10_0.png)
 
 
 
-![png](output_10_1.png)
+![png](./imm/output_10_1.png)
 
 
 
-![png](output_10_2.png)
+![png](./imm/output_10_2.png)
 
 
 ## Weight map
@@ -456,11 +456,11 @@ for i in np.random.randint(0, img_mtrx.shape[0], 2): # Randomly draw 3 images
 ```
 
 
-![png](output_16_0.png)
+![png](./imm/output_16_0.png)
 
 
 
-![png](output_16_1.png)
+![png](./imm/output_16_1.png)
 
 
 Very good
@@ -565,7 +565,7 @@ for i in np.random.randint(0, 30, 1): # Randomly draw 1 image
 ```
 
 
-![png](output_21_0.png)
+![png](./imm/output_21_0.png)
 
 
 Perfect. We can start training.
@@ -854,7 +854,7 @@ plt.grid(b = True, which='both', axis='both');
 ```
 
 
-![png](output_31_0.png)
+![png](./imm/output_31_0.png)
 
 
 We could go with a learning rate of 1e-2
@@ -1106,15 +1106,15 @@ with torch.no_grad():
 ```
 
 
-![png](output_40_0.png)
+![png](./imm/output_40_0.png)
 
 
 
-![png](output_40_1.png)
+![png](./imm/output_40_1.png)
 
 
 
-![png](output_40_2.png)
+![png](./imm/output_40_2.png)
 
 
 Not bad, not perfect either.
