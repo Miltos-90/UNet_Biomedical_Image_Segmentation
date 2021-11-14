@@ -334,11 +334,9 @@ for i in [1, 5, 10]:
 Authors precompute the weight map for each ground truth segmentation to compensate the different frequency of pixels from a certain class in the training dataset, in order to force the network to learn the small separation borders that they introduce between touching cells.
 The separation border is computed using morphological operations, and subsequently the weight map is the computed as:
 
-$w(\mathbf{x}) = w_c(\mathbf{x}) + w_0 \exp \left( - \frac{\left[ d_1(x) + d_2(x)\right]^2}{2\sigma^2} \right) $
+![png](./imm/render0.png)
 
-where $w_c: \Omega \rightarrow \mathbb{R}$ is the weight map to balance the class fequencies, $d_1:\Omega \rightarrow \mathbb{R}$ is the distance to the border of the nearest cell, and  $d_2:\Omega \rightarrow \mathbb{R}$ is the distance to the border of the second nearest cell.
-
-First we need a function to compute $w_c$:
+First we need a function to compute the first term:
 
 
 ```python
