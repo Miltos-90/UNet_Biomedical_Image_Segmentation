@@ -341,9 +341,6 @@ lr, loss = lr_test(train_loader, criterion, optimizer, model)
 ```
 
 
-      0%|          | 0/50 [00:00<?, ?it/s]
-
-
     Diverged on iteration 43 with loss 1367209663.550878
     
 
