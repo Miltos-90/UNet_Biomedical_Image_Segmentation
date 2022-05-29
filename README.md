@@ -111,19 +111,19 @@ for i in [1, 5, 10]:
 
 
     
-![png](output_9_0.png)
+![png](./imm/output_9_0.png)
     
 
 
 
     
-![png](output_9_1.png)
+![png](./imm/output_9_1.png)
     
 
 
 
     
-![png](output_9_2.png)
+![png](./imm/output_9_2.png)
     
 
 
@@ -169,13 +169,13 @@ for i in np.random.randint(0, img_mtrx.shape[0], 2): # Randomly draw 3 images
 
 
     
-![png](output_12_0.png)
+![png](./imm/output_12_0.png)
     
 
 
 
     
-![png](output_12_1.png)
+![png](./imm/output_12_1.png)
     
 
 
@@ -282,7 +282,7 @@ for i in np.random.randint(0, 30, 1): # Randomly draw 1 image
 
 
     
-![png](output_17_0.png)
+![png](./imm/output_17_0.png)
     
 
 
@@ -362,7 +362,7 @@ plt.grid(b = True, which='both', axis='both');
 
 
     
-![png](output_23_0.png)
+![png](./imm/output_23_0.png)
     
 
 
@@ -460,13 +460,6 @@ for epoch in range(cur_epoch, epochs):
 ```
 
 
-      0%|          | 0/1000 [00:00<?, ?epoch/s]
-
-
-
-      0%|          | 0/27 [00:00<?, ?batch/s]
-
-
 Let's check the predictions on the validation set:
 
 
@@ -514,19 +507,19 @@ with torch.no_grad():
 
 
     
-![png](output_28_0.png)
+![png](./imm/output_28_0.png)
     
 
 
 
     
-![png](output_28_1.png)
+![png](./imm/output_28_1.png)
     
 
 
 
     
-![png](output_28_2.png)
+![png](./imm/output_28_2.png)
     
 
 
